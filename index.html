@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEAMS Project Workshop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ffffff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #53a997;
+            color: white;
+        }
+        .banner {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="logos/banner.png" alt="Cosmos Sky Simulation">
+        </div>
+        <h1>SEAMS Project Workshop Agenda & Planning</h1>
+        <h3>Date: 10-12 of March, 2025</h3>
+        <h3>Venue: INF 328, EPFL Campus, Lausanne <strong><a href="https://si2.epfl.ch/demichel/si.epfl.ch/files/content/sites/si/files/shared/Seminars/EPFL%20map_INF%20328.pdf" target="_blank"> Venue Map</a></strong></h3>
+        <p><strong>Zoom Link:</strong> <a href="https://epfl.zoom.us/my/denisa.c" target="_blank">Join via Zoom</a></p>
+
+        <h2>Agenda</h2>
+        <h3>Day 1: SEAMS Objectives & SKA Alignment</h3>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker/Chair</th>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td>Welcome and coffee</td>
+            </tr>
+            <tr>
+                <td>09:30</td>
+                <td>Workshop goals and agenda</td>
+                <td>Denisa Constantinescu</td>
+            </tr>
+            <tr>
+                <td>09:40</td>
+                <td>SEAMS consortium objectives & timeline</td>
+                <td>Denisa Constantinescu</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>SKA SDP co-design status and roadmap</td>
+                <td>Shan Mignot, André Ferrari</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>BIPP implementation and roadmap</td>
+                <td>Emma Tolley</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Understanding imaging pipelines and algorithms – computational perspectives of DDFacet, BIPP, IDG, CLEAN, R2D2</td>
+                <td>Jaques, Rubén, Stasa</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>Discussion: Beliefs and concerns</td>
+                <td>Denisa Constantinescu</td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>Coffee break</td>
+            </tr>
+            <tr>
+                <td>16:30</td>
+                <td>Discussion: How does SEAMS align with the SKA roadmap?</td>
+            </tr>
+        </table>
+
+        <h3>Day 2: Imaging Pipelines, Metrics & Benchmarks for SEAMS HW-SW Codesign</h3>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker/Monitor</th>
+            </tr>
+            <tr>
+                <td>08:30</td>
+                <td>Coffee</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td>FRB imaging pipeline parameters and performance requirements for MWA + GPU co-design</td>
+                <td>Marcin Sokolowski and Cristian Di Pietrantonio</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>Benchmark pipeline parameters and performance requirements for 1-3 science cases for SKA and precursors</td>
+                <td>Shan Mignot & André Ferrari</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>Metrics for astronomers and computer architects</td>
+                <td>Denisa Constantinescu</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td>Benchmarks and architectural exploration – what we have:</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>[1h] Visibilities and sky image generation method for BIPP and DDFacet benchmarks for FPGA</td>
+                <td>Rubén Rodríguez Álvarez</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>[1h] Profiling and benchmarking of imaging algorithms (FFT, IDG, BIPP) for CPU and GPU</td>
+                <td>Adrien Devresse, Hamza Chouh</td>
+            </tr>
+            <tr>
+                <td>16:00</td>
+                <td>FPGA co-design approach at the kernel and pipeline level: interface and design variables for HW-SW codesign</td>
+                <td>ESL + INSA</td>
+            </tr>
+            <tr>
+                <td>16:30</td>
+                <td>Discussion: What are the next steps for SEAMS?</td>
+                <td>Denisa Constantinescu</td>
+            </tr>
+        </table>
+
+        <h3>Day 3: Planning Next Steps & Collaboration</h3>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker/Monitor</th>
+            </tr>
+            <tr>
+                <td>8:30</td>
+                <td>Coffee</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td>SEAMS FPGA co-design milestones refinement</td>
+                <td>ESL + INSA</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>Risk management and (re)planning SEAMS</td>
+                <td>All</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td>Lunch & Social activity</td>
+                <td>All</td>
+            </tr>
+        </table>
+
+        <h2>Venue Information & Logistics</h2>
+        <p><strong>Location:</strong> INF 328, EPFL Campus, Lausanne <a href="https://si2.epfl.ch/demichel/si.epfl.ch/files/content/sites/si/files/shared/Seminars/EPFL%20map_INF%20328.pdf" target="_blank"> Venue Map</a></p>
+        <p><strong>Zoom Link:</strong> <a href="https://epfl.zoom.us/my/denisa.c" target="_blank">Join via Zoom</a></p>
+    </div>
+</body>
+</html>
